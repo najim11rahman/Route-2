@@ -3,7 +3,7 @@ const classCode = document.getElementById('classCode');
 function checkClass() {
     if (classCode.value === 'root9') {
         window.location.replace('../Route-2/pages/class9.html');
-    } else if (classCode.value === 'class10') {
+    } else if (classCode.value === 'root10') {
         window.location.replace('../Route-2/pages/class10.html');
     } else if (classCode.value === '') {
         alert('Oops!!\nPlease enter the code to continue ....');
